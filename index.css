@@ -7,18 +7,22 @@ body {
 .container {
   width: 540px;
   margin: auto;
-  border: 1px solid lightsteelblue;
+  border: 1px solid lightgray;
 }
 
 .top {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1.5px solid lightgray;
+  padding-bottom: 5px;
 }
 
 .page-logo {
-  width: 300px;
+  width: 150px;
+  height: 80px;
   display: flex;
   margin-left: 15px;
+  margin-top: 5px;
 }
 
 .user-icon {
@@ -27,8 +31,9 @@ body {
   background: linear-gradient(#ffc0cb, #7fffd4);
   border-radius: 25px;
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-right: 25px;
+  margin-bottom: 15px;
 }
 
 header {
@@ -40,6 +45,9 @@ header {
   height: 50px;
   border-radius: 25px;
   float: left;
+  margin-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -57,6 +65,9 @@ h1 {
     sans-serif;
   font-size: 1rem;
   font-weight: bold;
+  margin-left: 15px;
+  margin-top: 42px;
+  margin-bottom: 4px;
 }
 
 h2 {
@@ -72,7 +83,13 @@ h2 {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
-  font-size: 1rem;
+  font-size: 0.88rem;
   font-weight: 500;
   display: inline-block;
+  margin-left: 15px;
+  margin-top: 0;
+}
+
+.main-image-post {
+  width: 100%;
 }
